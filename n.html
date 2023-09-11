@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cart">
+          <h2>shopping card</h2>
+
+        <div class="product">
+            
+                <img src="1.jpg" alt="product 1">
+                <div class="product-details">
+                  <h3>product 1</h3>
+                  <p>Prix unitaire: 10 $</p>
+                </div>
+          
+            <span class="product-price">$10.00</span>
+            <button class="quantity-minus">-</button>
+            <span class="product-quantity">1</span>
+            <button class="quantity-plus">+</button>
+            <span class="product-total">$10.00</span>
+            <button class="remove-btn">supprimer</button>
+            <button class="like-btn">❤</button>
+        </div>
+        <div class="product">
+            <img src="2.webp" alt="product 2">
+            <div class="product-details">
+              <h3>product 2</h3>
+              <p>Prix unitaire: 20 $</p>
+            </div>
+           
+            <span class="product-price">$20.00</span>
+            <button class="quantity-minus">-</button>
+            <span class="product-quantity">1</span>
+            <button class="quantity-plus">+</button>
+            <span class="product-total">$20.00</span>
+            <button class="remove-btn">supprimer</button>
+            <button class="like-btn">❤</button>
+        </div>
+        <div class="cart-total">
+            <span>Total: <span id="total-price">$30.00</span></span>
+        </div>
+    </div>
+    
+	<script src="script.js"></script>
+</body>
+</html>
